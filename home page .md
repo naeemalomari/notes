@@ -5,6 +5,7 @@
 | home page      | [home](https://naeemalomari.github.io/notes/)       |
 | Growthmindset | [task1](https://naeemalomari.github.io/notes/)       |
 |read02|[task2](https://naeemalomari.github.io/notes/)|
+|read03|[task3](https://naeemalomari.github.io/notes/)|
 * GoodLuckToYouAll
 =======
 
