@@ -5,4 +5,4 @@
 - **Spreading awareness among people**
 [official difinition of mindset](https://en.wikipedia.org/wiki/Mindset)
 > if you have different mindset you will have a different outcome
--** jack ma ** 
+*  *jack ma*   
