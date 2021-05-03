@@ -4,5 +4,5 @@
 |....................... |.....|
 |home page               |[home]( https://naeemalomari.github.io/notes/)|
 |Growthmindset           |[task1](https://naeemalomari.github.io/notes/)|
-|Read02                  |[task2](https://naeemalomari.github.io/notes/)  |
+|Read02                  |[task2](https://naeemalomari.github.io/notes/)|
 * GoodLuckToYouAll * 
