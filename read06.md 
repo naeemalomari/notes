@@ -1,1 +1,5 @@
-## JavaScript function is a block of code designed to perform a particular 
+## JavaScript function is a block of code designed to perform a particular task and is executed when something invokes it. 
+## Function ( Parameter, Parameter ) {
+  Code 
+  return (this is important to make sure that you will not have a undefined )
+} 
