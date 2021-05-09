@@ -3,3 +3,5 @@
   Code 
   return (this is important to make sure that you will not have a undefined )
 } 
+## parameter (argument), function arguments are the values received by the function when it is invoked. 
+## we have  
