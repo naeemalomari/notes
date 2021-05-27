@@ -5,7 +5,7 @@
 ## When you are creating you web site from you local machine you might considered where the others will use it to know how we can solve the ** screen size ** , ** display resolutions**, grids help create professional and flexible designs to the user. 
 ## Functions, Methods, and Objects :
 ## What is a function : function  let you group a series of statements together to perform a specific task , and you can use it many times in the same code it's better to give the function name of what is this function to so you can remember what should do, when you want to make a function and give's you the area , this function known as a parameters, when you want the function to give you answer known as a return value, you have to declare the function and then call it to work and declaring a function which need's a parameters and some times you have to call a function with information's.
-## What is an Object ?
+## What is an Object ?
 ## Objects group together a set of variables and functions to create a model of a something you would recognize from the real life. In an object variable known as properties, and in an object functions knows as methods.
 **[Here is my refrence for html ](https://wtf.tw/ref/duckett.pdf)**
 **[Here is my refrence for JavaScripst ](https://slack-files.com/files-pri-safe/TNGRRLUMA-F023F5HG1QQ/javascript_and_jquery_interactive_jon_du__1_.pdf?c=1621965642-97ae46c51654a1f9)**
