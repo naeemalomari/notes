@@ -19,4 +19,8 @@
 ## When you have a NodeList and you would loop inside this NodeList you can use for loop to go through this NodeList example let hotItems =document.queryselectorAll('li.hot')
 
 ##  for ( let i=0; i< hotItem.lenght; i++){hotItem[i].className='cool';}
-##  here you are going to loop inside the NodeList that have a className and equals to string cool
+##  here you are going to loop inside the NodeList that have a className and equals to string cool.
+
+**[Here is my refrence for html ](https://wtf.tw/ref/duckett.pdf)**
+**[Here is my refrence for JavaScripst ](https://slack-files.com/files-pri-safe/TNGRRLUMA-F023F5HG1QQ/javascript_and_jquery_interactive_jon_du__1_.pdf?c=1621965642-97ae46c51654a1f9)**
+
