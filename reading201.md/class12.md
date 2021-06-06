@@ -1,6 +1,6 @@
 ## The canvas element:
 
-## you can use the < canvas > tags just like using img tag elements, you can put it from the html tags or you can use it from the DOM properties, but the difference is using canvas from html you have to insert a height and width to the canvas, while using the DOM properties it will be added by default with 300 px for width and 150 px high, if it's not sized well from the DOM properties attributes explicitly in the canvas attributes, you can style the canvas just like any element in the HTML using CSS with ( margin, boder,padding etc..).
+## you can use the < canvas > tags not just like using img tag elements, you can put it from the html tags or you can use it from the DOM properties, but the difference is using canvas from html you have to insert a height and width to the canvas, while using the DOM properties it will be added by default with 300 px for width and 150 px high, if it's not sized well from the DOM properties attributes explicitly in the canvas attributes, you can style the canvas just like any element in the HTML using CSS with ( margin, boder,padding etc..).
 
 ## Some browsers is not supporting canvas which it should have a open and closing tags not like the image tags, so these browsers will accept the canvas by using the DOM properties with id, here we will use the 2D rendering context.
 
