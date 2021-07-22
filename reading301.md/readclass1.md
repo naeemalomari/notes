@@ -9,7 +9,7 @@ Component is a software object intended to interact with other components, encap
 
 **Replaceable** Components may be freely substituted with other similar components.
 
-**Not Context Specific** Components are designed to operate in different environments and contexts. 
+**Not Context Specific** Components are designed to operate in different environments and contexts.
 
 **Extensible** A Component can be extended from existing components to provide new behavior.
 
@@ -17,14 +17,13 @@ Component is a software object intended to interact with other components, encap
 
 **independent** Components are designed to have minimal dependencies on other components.
 
-
 ## what are the advantages of using component based architecture ?
 
 **Ease of deployment** As new compatible versions become available, it is easier to replace existing versions with no impact on the other components ot the system as a whole.
 
 **Reduced Cost** The use of third-party components allows you to spread the cost of development and maintenance.
 
-**Ease Of Development** components implement well-known interfaces to provide defined functionality, allowing development without impacting other parts of the system 
+**Ease Of Development** components implement well-known interfaces to provide defined functionality, allowing development without impacting other parts of the system
 
 **Reuseable** the use of reusable components means that they can be used to spread the development and maintenance cost across several applications or systems.
 
@@ -35,3 +34,13 @@ Component is a software object intended to interact with other components, encap
 **System Maintenance And Evolution** Easy to change and update the implementation without affecting the rest of the system.
 
 **Independent** Independency and flexible connectivity of components.
+
+## ////////////////////////////////////
+
+## What is props short for ?
+
+Is the responsible about communication between React and components,also it's stand for properties it can be passed like function arguments, and you can only be used it in a uni-directional flow between the component parent and component child it is known as one way direction.  
+
+## How are props used in React ?
+
+## what is the flow of props ?
