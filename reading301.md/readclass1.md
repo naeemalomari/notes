@@ -43,4 +43,15 @@ Is the responsible about communication between React and components,also it's st
 
 ## How are props used in React ?
 
-## what is the flow of props ?
+There is a Three steps to use props in React :
+
+1-Define an attribute and its value (data).
+
+2-Pass it to child components by using props.
+
+3-Render the props Data.
+
+
+## What is the flow of props ?
+
+One way direction from the Parent Components to Child Components **Only**. 
