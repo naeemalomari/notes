@@ -55,3 +55,21 @@ moreCars ['Musting','Ford','BMW','Toyota','Nissan','Mercedes']
 const objectOne = {hello: "🤪"}
 const objectTwo = {world: "🐻"}
 const objectThree = {...objectOne, ...objectTwo, laugh: "😂"}
+
+**How to pass functions between components**
+
+## In the video, what is the first step that the developer does to pass functions between components?
+
+He made a function to pass through the objects.
+
+## In your own words, what does the increment function do?
+
+the increment function will go through the objects if the name will be the same it will return  as an array and counts again.
+
+## How can you pass a method from a parent component into a child component?
+
+methodName={this.methodName }
+
+## How does the child component invoke a method that was passed to it from a parent component?
+
+this.props.methodName()
