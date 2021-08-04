@@ -48,3 +48,6 @@ The Debugger Statements JavaScript Breakpoint will pause JavaScript execution wh
 ## What does the word ‘debugger’ do in your code?
 
 Debuggers allow users to halt the execution of the program, examine the values of variables, step execution of the program line by line, and set breakpoints on lines or specific functions.
+
+
+**NaimAlOmari** 
