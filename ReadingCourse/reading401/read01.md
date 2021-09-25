@@ -17,4 +17,6 @@
 
 ## Java has everything you need to end up with a standard application programming interface it include's more than 4000 classes with it's own functionality, limitations and own rules, were you can search about them easily using this URL **docs.oracle.com/javase/8/docs/api/**, while choosing your appropriate index you have to notice that there is differ from choosing println as int, long, and some other types, and sometimes you will be confused because some of them has the same meaning, so be aware when you are going to choose, if you want to open one link you will have an explanation for this index.
 
-## In the same above link you can also search about classes, 
+## In the same above link you can also search about classes.
+
+
