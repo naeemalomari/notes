@@ -1,7 +1,5 @@
 *Hi EveryOne*
 
-## i am naeemalomari my purpose is to be a good software developer , good luck to you all
-
 ## This is a summary for my reading notes through this course
 
 **Reading Notes**
