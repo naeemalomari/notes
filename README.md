@@ -71,7 +71,7 @@
 | -----------     | --------------- |
 | Read-01        |[Java Basics](https://naeemalomari.github.io/reading-notes/reading401/read01)|
 | Read-02        |[Arrays, Loops, Imports](https://naeemalomari.github.io/reading-notes/reading301/read02)|
-| Read-03        |[Maps, primitives, File I/O](https://malkhaleel88.github.io/reading-notes/Read-03)|
+| Read-03        |[Maps, primitives, File I/O](https://naeemalomari.github.io/reading-notes/reading401/read03)|
 | Read-04        |[OOP](https://malkhaleel88.github.io/reading-notes/Read-04)|
 | Read-05        |[Linked Lists](https://malkhaleel88.github.io/reading-notes/Read-05)|
 | Read-06        |[Inheritance and Interfaces](https://malkhaleel88.github.io/reading-notes/Read-06)|
