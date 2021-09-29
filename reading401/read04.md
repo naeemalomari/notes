@@ -21,4 +21,4 @@
 
 **Binary, Decimal and Hexadecimal Numbers :**
 
-## numbers in java could be cutting into parts for example if you have **17.591** first of all you will separate it for the left side and the right side, the left side is  considered as ones and tens number 7 is the ones and number 1 is the tens every position further to the left is 10 times bigger, for the right side 5 is the tenths , 9 is the hundredths and 1 is thousandths 
+## numbers in java could be cutting into parts for example if you have **17.591** first of all you will separate it for the left side and the right side, the left side is  considered as ones and tens number 7 is the ones and number 1 is the tens every position further to the left is 10 times bigger, for the right side 5 is the tenths , 9 is the hundredths and 1 is thousandths.
