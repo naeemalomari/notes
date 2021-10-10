@@ -1,8 +1,11 @@
 ## Read: 12 - Spring RESTful Routing & Static Files
 
-Baeldung: Spring Request Mapping
+## Baeldung: Spring Request Mapping
+
 @RequestMapping Basics
-2.1. @RequestMapping — by Path
+
+## 2.1. @RequestMapping — by Path
+
 @RequestMapping(value = "/ex/foos", method = RequestMethod.GET)
 @ResponseBody
 public String getFoosWithHeaders() {
@@ -10,10 +13,12 @@ public String getFoosWithHeaders() {
 }
 To test out this mapping with a simple curl command, run: curl -i <http://localhost:8080/spring-rest/ex/foos>
 
-2.2. @RequestMapping — the HTTP Method The HTTP method parameter has no default. @RequestMapping(value = "/ex/foos", method = POST)
+## .2. @RequestMapping — the HTTP Method The HTTP method parameter has no default. @RequestMapping(value = "/ex/foos", method = POST)
+
 To test the POST via a curl command: curl -i -X POST <http://localhost:8080/spring-rest/ex/foos>
 
-RequestMapping and HTTP Headers
+## RequestMapping and HTTP Headers
+
 3.1. @RequestMapping With the headers Attribute The mapping can be narrowed even further by specifying a header for the request: @RequestMapping(value = "/ex/foos", headers = "key=val", method = GET) test curl -i -H "key:val" <http://localhost:8080/spring-rest/ex/foos>
 or even multiple headers
 
@@ -23,7 +28,9 @@ or even multiple headers
 test curl -i -H "key1:val1" -H "key2:val2" <http://localhost:8080/spring-rest/ex/foos>
 
 3.2. @RequestMapping Consumes and Produces Starting with Spring 3.1, the @RequestMapping annotation now has the produces and consumes attributes.
-RequestMapping With Path Variables
+
+## RequestMapping With Path Variables
+
 4.1. Single @PathVariable
 @RequestMapping(value = "/ex/foos/{id}", method = GET)
 @ResponseBody
@@ -59,7 +66,9 @@ Multiple params values can be set
   value = "/ex/bars",
   params = { "id", "second" },
   method = GET)
-RequestMapping Corner Cases
+
+## RequestMapping Corner Cases
+
 6.1. @RequestMapping — Multiple Paths Mapped to the Same Controller Method In that case, the value attribute of @RequestMapping does accept multiple mappings
 @RequestMapping(
   value = { "/ex/advanced/bars", "/ex/advanced/foos" },
@@ -92,41 +101,50 @@ public String duplicateJson() {
 }
 when return the correct data representation based on the Accepts header supplied in the request.
 
-Another way to resolve this is to update the URL assigned to either of the two methods involved.
+## Another way to resolve this is to update the URL assigned to either of the two methods involved
 
 New Request Mapping Shortcuts
 @GetMapping @PostMapping @PutMapping @DeleteMapping @PatchMapping
 
-Spring Configuration
-We need a @Configuration class to enable the full MVC support and configure classpath scanning for the controller.
+## Spring Configuration
 
-Spring guide: Accessing Data with JPA
-To build an application that stores Customer POJOs (Plain Old Java Objects) in a memory-based database.
+## We need a @Configuration class to enable the full MVC support and configure classpath scanning for the controller
 
-Define a Simple Entity
-The Class is annotated with @Entity, indicating that it is a JPA entity. (Because no @Table annotation exists, it is assumed that this entity is mapped to a table named Customer.)
+## Spring guide: Accessing Data with JPA
 
-what iniside @Id, JPA recognizes it as the object’s ID. The id property is also annotated with @GeneratedValue to indicate that the ID should be generated automatically.
+## To build an application that stores Customer POJOs (Plain Old Java Objects) in a memory-based database
 
-Create Simple Queries
-Spring Data JPA focuses on using JPA to store data in a relational database.
-Spring Data JPA also lets you define other query methods by declaring their method signature. ex: Student Class, has findByLastName().
-Create an Application Class that includes @SpringBootApplication, to run.
-Baeldung: Comparing repositories
-Spring Data Repositories
-The JpaRepository – which extends PagingAndSortingRepository and, in turn, the CrudRepository.
+## Define a Simple Entity
 
-JpaRepository contains the full API of CrudRepository and PagingAndSortingRepository.
+## The Class is annotated with @Entity, indicating that it is a JPA entity. (Because no @Table annotation exists, it is assumed that this entity is mapped to a table named Customer.)
 
-Each of these defines its own functionality:
+## what iniside @Id, JPA recognizes it as the object’s ID. The id property is also annotated with @GeneratedValue to indicate that the ID should be generated automatically
 
-CrudRepository provides CRUD functions
+## Create Simple Queries
 
-PagingAndSortingRepository provides methods to do pagination and sort records
+## Spring Data JPA focuses on using JPA to store data in a relational database
 
-JpaRepository JPA related methods such as flushing the persistence context and delete records in a batch
+## Spring Data JPA also lets you define other query methods by declaring their method signature. ex: Student Class, has findByLastName()
 
-CrudRepository
+## Create an Application Class that includes @SpringBootApplication, to run
+
+## Baeldung: Comparing repositories
+
+## Spring Data Repositories
+
+## The JpaRepository – which extends PagingAndSortingRepository and, in turn, the CrudRepository
+
+## JpaRepository contains the full API of CrudRepository and PagingAndSortingRepository
+
+## Each of these defines its own functionality
+
+## CrudRepository provides CRUD functions
+
+## PagingAndSortingRepository provides methods to do pagination and sort records
+
+## JpaRepository JPA related methods such as flushing the persistence context and delete records in a batch
+
+## CrudRepository
 
 public interface CrudRepository<T, ID extends Serializable>
   extends Repository<T, ID> {
@@ -164,4 +182,4 @@ When using Pageable, we create a Pageable object with certain properties and we'
 
 Page size
 Current page number
-Sorti
+Sorting
