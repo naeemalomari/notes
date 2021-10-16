@@ -39,7 +39,6 @@ public interface AuthenticationProvider {
 }
 ```
 
-![ProviderManager](../img/ProviderManager.png)
 
 ### 2. Customizing Authentication Managers
 
@@ -91,8 +90,6 @@ public class ApplicationSecurity extends WebSecurityConfigurerAdapter {
 ### 4. Web Security
 
 The typical layering of the handlers for a single HTTP request:
-
-![Client](../img/client.png)
 
 - The client sends a request to the application, and the container decides which filters and which servlet apply to it based on the path of the request URI.
 
